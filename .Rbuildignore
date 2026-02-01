@@ -1,2 +1,6 @@
+^renv$
+^renv\.lock$
 ^electrotidyml\.Rproj$
 ^\.Rproj\.user$
+^data-raw$
+^scripts$
