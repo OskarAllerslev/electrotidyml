@@ -26,4 +26,7 @@ Imports:
     yardstick,
     xgboost,
     progressr,
-    ggplot2
+    ggplot2,
+    embed,
+    dials,
+    finetune
