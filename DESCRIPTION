@@ -29,4 +29,5 @@ Imports:
     ggplot2,
     embed,
     dials,
-    finetune
+    finetune,
+    modeltime
