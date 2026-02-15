@@ -25,10 +25,6 @@ folds <- rsample::rolling_origin(
 # sætter vores recipe op -----
 energy_recipe <- recipes::recipe(SMPEP2 ~ ., data = train_df) |>
   # 1. ID og Roller
-  recipes::update_role(
-    DateTime, 
-    new_role = "id"
-  ) |>
   
   # 2. FEATURE ENGINEERING
   recipes::step_mutate(
